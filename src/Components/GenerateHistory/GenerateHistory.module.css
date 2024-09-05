@@ -1,0 +1,10 @@
+.p {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: xx-large;
+}
+
+.container:not(:first-child) {
+    margin-top: 90px;
+}
